@@ -1,0 +1,73 @@
+task_id,tier,domain,strategy,success,tsr,oqs,total_tokens,elapsed_time_sec,final_answer_preview,agent_count
+T1-01,1,reasoning,solo,True,1.0,9.5,19,0.0551,"Sistematik yaklaşımla ele alındığında: Hesaplama adımları: Verilen değerleri belirle, ilgili formülü uygula, sonucu doğr",1
+T1-01,1,reasoning,solo_refinement,True,1.0,10.0,108,0.1578,[Bağlam: [Bağlam: Revize edilmiş yanıt (1. iterasyon): Aritmetik çözüm: Problemi parçalara ayırarak hesapladım. Kesin ol,1
+T1-01,1,reasoning,sequential_chain,True,1.0,10.0,110,0.1608,[Bağlam: [Bağlam: Bu görevi analiz ettim. 12 × 15 işleminin sonucunu hesapla. Çözüm: Aritmetik çözüm: Problemi parçalara,3
+T1-01,1,reasoning,hierarchical,True,1.0,10.0,172,0.2701,[Bağlam: Alt-Ajan 1: [Bağlam: Alt-takım sonuçlarını birleştirerek: Aritmetik çözüm: Problemi parçalara ayırarak hesaplad,5
+T1-01,1,reasoning,debate,True,1.0,10.0,173,0.2603,"Tartışma analizi sonucu: Hesaplama adımları: Verilen değerleri belirle, ilgili formülü uygula, sonucu doğrula. Kesin ola",3
+T1-01,1,reasoning,majority_voting,True,1.0,10.0,137,0.2703,Karşı argüman: karşı örnekler göz ardı edilmiş. Bu nedenle Aritmetik çözüm: Problemi parçalara ayırarak hesapladım. Kesi,5
+T1-02,1,analysis,solo,True,1.0,10.0,25,0.0516,Bu görevi analiz ettim. 'Artificial Intelligence' ifadesini Türkçeye çevir. Çözüm: Metin orijinal ifadenin nüansları kor,1
+T1-02,1,analysis,solo_refinement,True,1.0,10.0,118,0.1623,[Bağlam: [Bağlam: İlk yanıtı gözden geçirip iyileştirdim: Çeviri: Kaynak metnin anlamsal bütünlüğünü koruyarak hedef dil,1
+T1-02,1,analysis,sequential_chain,True,1.0,10.0,112,0.162,"[Bağlam: [Bağlam: Adım adım düşünüldüğünde, Metin orijinal ifadenin nüansları korunarak çevrildi. Bu terimin Türkçe karş",3
+T1-02,1,analysis,hierarchical,False,0.0,8.0,182,0.2743,[Bağlam: Alt-Ajan 1: [Bağlam: Koordinasyon sonucunda ulaşılan nihai yanıt: Aritmetik çözüm: Problemi parçalara ayırarak ,5
+T1-02,1,analysis,debate,True,1.0,10.0,180,0.2692,Her iki tarafı değerlendirerek: Metin orijinal ifadenin nüansları korunarak çevrildi. Bu terimin Türkçe karşılığı doğrud,3
+T1-02,1,analysis,majority_voting,True,1.0,10.0,145,0.268,Eleştirel değerlendirme: Önerilen çözümde tek bir perspektif sunulmuş zayıflığı görülmektedir. Alternatif: Metin orijina,5
+T1-03,1,reasoning,solo,True,1.0,9.5,18,0.0551,Sistematik yaklaşımla ele alındığında: Değerlendirme yapılarak tutarlılık ve bütünlük sağlandı. Buna göre Dünya'nın en b,1
+T1-03,1,reasoning,solo_refinement,True,1.0,10.0,117,0.1591,[Bağlam: [Bağlam: Revize edilmiş yanıt (1. iterasyon): Değerlendirme yapılarak tutarlılık ve bütünlük sağlandı. Buna gör,1
+T1-03,1,reasoning,sequential_chain,True,1.0,10.0,113,0.1586,[Bağlam: [Bağlam: Bu görevi analiz ettim. Dünyanın en büyük okyanusu hangisidir? Çözüm: Değerlendirme yapılarak tutarlıl,3
+T1-03,1,reasoning,hierarchical,False,0.0,8.0,212,0.2709,"[Bağlam: Alt-Ajan 1: [Bağlam: Bu görevi şu şekilde bölüyorum: Alt-görev 1, Alt-görev 2, Alt-görev 3. Genel çözüm: Hesapl",5
+T1-03,1,reasoning,debate,True,1.0,10.0,177,0.2607,Tartışma analizi sonucu: Duygu analizi sonucu metnin genel tonu incelendi. Buna göre Dünya'nın en büyük okyanusu Pasifik,3
+T1-03,1,reasoning,majority_voting,True,1.0,10.0,130,0.2673,Karşı argüman: sınırlı bağlam kullanılmış. Bu nedenle Görev incelenerek uygun yanıt oluşturuldu. Buna göre Dünya'nın en ,5
+T2-01,2,analysis,solo,False,0.0,7.13,18,0.0551,Sistematik yaklaşımla ele alındığında: Özet: Metnin ana temaları belirlendi ve gereksiz detaylar elendi. Sonuç olarak mo,1
+T2-01,2,analysis,solo_refinement,False,0.0,7.59,108,0.16,[Bağlam: [Bağlam: Daha net ve kapsamlı versiyon: Özet: Metnin ana temaları belirlendi ve gereksiz detaylar elendi. Sonuç,1
+T2-01,2,analysis,sequential_chain,False,0.0,7.6,101,0.1557,"[Bağlam: [Bağlam: Adım adım düşünüldüğünde, Ana noktalar özenle çıkarıldı ve kısaltıldı. Sonuç olarak mod iyimser/poziti",3
+T2-01,2,analysis,hierarchical,False,0.0,7.0,161,0.269,[Bağlam: Alt-Ajan 1: [Bağlam: Alt-takım sonuçlarını birleştirerek: Aritmetik çözüm: Problemi parçalara ayırarak hesaplad,5
+T2-01,2,analysis,debate,False,0.0,7.11,165,0.2676,Her iki tarafı değerlendirerek: Özet: Metnin ana temaları belirlendi ve gereksiz detaylar elendi. Final karar: Yukarıdak,3
+T2-01,2,analysis,majority_voting,False,0.0,7.1,124,0.265,Önceki yanıt eksik çünkü doğrulama adımı eksik. Daha iyi yaklaşım: Özet: Metnin ana temaları belirlendi ve gereksiz deta,5
+T2-02,2,coding,solo,True,1.0,8.0,29,0.0551,Bu görevi analiz ettim. Python'da bir liste içindeki tekrar eden elemanları bulan... Çözüm: Görevin kısıtlamalarına uygu,1
+T2-02,2,coding,solo_refinement,True,1.0,8.5,123,0.1586,[Bağlam: [Bağlam: Daha net ve kapsamlı versiyon: İstek doğrultusunda yaratıcı bir yaklaşımla geliştirildi. Test listesin,1
+T2-02,2,coding,sequential_chain,True,1.0,8.36,114,0.1632,[Bağlam: [Bağlam: Sistematik yaklaşımla ele alındığında: İstek doğrultusunda yaratıcı bir yaklaşımla geliştirildi. Test ,3
+T2-02,2,coding,hierarchical,False,0.0,6.0,189,0.2683,[Bağlam: Alt-Ajan 1: [Bağlam: Koordinasyon sonucunda ulaşılan nihai yanıt: Hesaplama adımları: Verilen değerleri belirle,5
+T2-02,2,coding,debate,True,1.0,8.5,188,0.2699,"Hakem kararı: Metindeki ifadelerin taşıdığı duygusal yük değerlendirildi. Test listesinde çalışan kodun çıktısı {2: 2, 3",3
+T2-02,2,coding,majority_voting,True,1.0,8.5,120,0.269,Eleştirel değerlendirme: Önerilen çözümde sınırlı bağlam kullanılmış zayıflığı görülmektedir. Alternatif: Görevin kısıtl,5
+T2-03,2,analysis,solo,True,1.0,9.5,33,0.0542,Bu görevi analiz ettim. Küresel ısınmanın 3 önemli nedenini listele ve her... Çözüm: Özet: Metnin ana temaları belirlend,1
+T2-03,2,analysis,solo_refinement,True,1.0,9.5,135,0.1609,[Bağlam: [Bağlam: Revize edilmiş yanıt (1. iterasyon): Özet: Metnin ana temaları belirlendi ve gereksiz detaylar elendi.,1
+T2-03,2,analysis,sequential_chain,True,1.0,9.5,123,0.1644,[Bağlam: [Bağlam: Bu görevi analiz ettim. Küresel ısınmanın 3 önemli nedenini listele ve her... Çözüm: Özet: Metnin ana ,3
+T2-03,2,analysis,hierarchical,True,1.0,9.5,199,0.2703,"[Bağlam: Alt-Ajan 1: [Bağlam: Bu görevi şu şekilde bölüyorum: Alt-görev 1, Alt-görev 2, Alt-görev 3. Genel çözüm: Aritme",5
+T2-03,2,analysis,debate,True,1.0,9.5,209,0.2732,"Hakem kararı: Özet: Metnin ana temaları belirlendi ve gereksiz detaylar elendi. En önemli 3 neden: 1) Fosil yakıtlar, 2)",3
+T2-03,2,analysis,majority_voting,True,1.0,9.5,155,0.2677,Karşı argüman: tek bir perspektif sunulmuş. Bu nedenle Ana noktalar özenle çıkarıldı ve kısaltıldı. En önemli 3 neden: 1,5
+T3-01,3,reasoning,solo,True,1.0,6.78,12,0.0551,"Adım adım düşünüldüğünde, Mantıksal çıkarım: Öncüllerden tutarlı bir sonuca varıldı. sonucuna ulaşıyoruz.",1
+T3-01,3,reasoning,solo_refinement,True,1.0,7.41,87,0.1614,[Bağlam: [Bağlam: Daha net ve kapsamlı versiyon: Mantıksal çıkarım: Öncüllerden tutarlı bir sonuca varıldı. (İterasyon 1,1
+T3-01,3,reasoning,sequential_chain,True,1.0,7.14,80,0.1645,"[Bağlam: [Bağlam: Adım adım düşünüldüğünde, Argümandaki varsayımlar ve mantıksal tutarlılık incelendi. sonucuna ulaşıyor",3
+T3-01,3,reasoning,hierarchical,True,1.0,7.0,162,0.2674,[Bağlam: Alt-Ajan 1: [Bağlam: Koordinasyon sonucunda ulaşılan nihai yanıt: Hesaplama adımları: Verilen değerleri belirle,5
+T3-01,3,reasoning,debate,True,1.0,7.14,146,0.2678,"Tartışma analizi sonucu: Hesaplama adımları: Verilen değerleri belirle, ilgili formülü uygula, sonucu doğrula. Final kar",3
+T3-01,3,reasoning,majority_voting,True,1.0,7.41,96,0.266,Eleştirel değerlendirme: Önerilen çözümde doğrulama adımı eksik zayıflığı görülmektedir. Alternatif: Argümandaki varsayı,5
+T3-02,3,analysis,solo,True,1.0,6.6,11,0.0551,Sistematik yaklaşımla ele alındığında: Mantıksal çıkarım: Öncüllerden tutarlı bir sonuca varıldı.,1
+T3-02,3,analysis,solo_refinement,True,1.0,7.1,91,0.1614,[Bağlam: [Bağlam: Daha net ve kapsamlı versiyon: Argümandaki varsayımlar ve mantıksal tutarlılık incelendi. (İterasyon 1,1
+T3-02,3,analysis,sequential_chain,True,1.0,7.1,82,0.1627,"[Bağlam: [Bağlam: Adım adım düşünüldüğünde, Mantıksal çıkarım: Öncüllerden tutarlı bir sonuca varıldı. sonucuna ulaşıyor",3
+T3-02,3,analysis,hierarchical,True,1.0,7.1,154,0.2624,[Bağlam: Alt-Ajan 1: [Bağlam: Koordinasyon sonucunda ulaşılan nihai yanıt: Aritmetik çözüm: Problemi parçalara ayırarak ,5
+T3-02,3,analysis,debate,True,1.0,6.7,137,0.2634,Her iki tarafı değerlendirerek: Duygu analizi sonucu metnin genel tonu incelendi. Final karar: Yukarıdaki analiz tatmin ,3
+T3-02,3,analysis,majority_voting,True,1.0,7.3,102,0.2658,Eleştirel değerlendirme: Önerilen çözümde tek bir perspektif sunulmuş zayıflığı görülmektedir. Alternatif: Mantıksal çık,5
+T3-03,3,reasoning,solo,True,1.0,6.5,11,0.0529,"Adım adım düşünüldüğünde, Metindeki ifadelerin taşıdığı duygusal yük değerlendirildi. sonucuna ulaşıyoruz.",1
+T3-03,3,reasoning,solo_refinement,True,1.0,6.67,88,0.1628,[Bağlam: [Bağlam: İlk yanıtı gözden geçirip iyileştirdim: Duygu analizi sonucu metnin genel tonu incelendi. (İterasyon 1,1
+T3-03,3,reasoning,sequential_chain,True,1.0,7.0,78,0.1605,[Bağlam: [Bağlam: Sistematik yaklaşımla ele alındığında: Duygu analizi sonucu metnin genel tonu incelendi....] Önceki ya,3
+T3-03,3,reasoning,hierarchical,True,1.0,7.17,179,0.2661,"[Bağlam: Alt-Ajan 1: [Bağlam: Bu görevi şu şekilde bölüyorum: Alt-görev 1, Alt-görev 2, Alt-görev 3. Genel çözüm: Aritme",5
+T3-03,3,reasoning,debate,True,1.0,6.85,145,0.2682,Hakem kararı: Duygu analizi sonucu metnin genel tonu incelendi. Final karar: Yukarıdaki analiz tatmin edicidir.. Bu sonu,3
+T3-03,3,reasoning,majority_voting,True,1.0,7.17,93,0.2619,Eleştirel değerlendirme: Önerilen çözümde sınırlı bağlam kullanılmış zayıflığı görülmektedir. Alternatif: Metindeki ifad,5
+T4-01,4,creative,solo,False,0.0,5.64,11,0.0546,"Adım adım düşünüldüğünde, İstek doğrultusunda yaratıcı bir yaklaşımla geliştirildi. sonucuna ulaşıyoruz.",1
+T4-01,4,creative,solo_refinement,False,0.0,5.64,83,0.1605,[Bağlam: [Bağlam: Revize edilmiş yanıt (1. iterasyon): İstek doğrultusunda yaratıcı bir yaklaşımla geliştirildi. (İteras,1
+T4-01,4,creative,sequential_chain,True,1.0,6.6,96,0.1571,"[Bağlam: [Bağlam: Bu görevi analiz ettim. 2150 yılında Mars kolonisinde geçen, yapay zeka bir... Çözüm: İstek doğrultusu",3
+T4-01,4,creative,hierarchical,False,0.0,5.5,148,0.2651,[Bağlam: Alt-Ajan 1: [Bağlam: Koordinasyon sonucunda ulaşılan nihai yanıt: Aritmetik çözüm: Problemi parçalara ayırarak ,5
+T4-01,4,creative,debate,False,0.0,5.64,123,0.2684,Hakem kararı: Aritmetik çözüm: Problemi parçalara ayırarak hesapladım. Final karar: Yukarıdaki analiz tatmin edicidir.. ,3
+T4-01,4,creative,majority_voting,False,0.0,5.64,109,0.2638,Önceki yanıt eksik çünkü sınırlı bağlam kullanılmış. Daha iyi yaklaşım: İstek doğrultusunda yaratıcı bir yaklaşımla geli,5
+T4-02,4,creative,solo,True,1.0,6.5,11,0.0549,"Adım adım düşünüldüğünde, Görevin kısıtlamalarına uygun özgün içerik oluşturuldu. sonucuna ulaşıyoruz.",1
+T4-02,4,creative,solo_refinement,True,1.0,6.7,83,0.1588,[Bağlam: [Bağlam: Daha net ve kapsamlı versiyon: İstek doğrultusunda yaratıcı bir yaklaşımla geliştirildi. (İterasyon 1),1
+T4-02,4,creative,sequential_chain,True,1.0,6.7,75,0.156,"[Bağlam: [Bağlam: Adım adım düşünüldüğünde, İstek doğrultusunda yaratıcı bir yaklaşımla geliştirildi. sonucuna ulaşıyoru",3
+T4-02,4,creative,hierarchical,True,1.0,6.5,192,0.2682,"[Bağlam: Alt-Ajan 1: [Bağlam: Bu görevi şu şekilde bölüyorum: Alt-görev 1, Alt-görev 2, Alt-görev 3. Genel çözüm: Hesapl",5
+T4-02,4,creative,debate,True,1.0,6.7,144,0.2669,Her iki tarafı değerlendirerek: Aritmetik çözüm: Problemi parçalara ayırarak hesapladım. Final karar: Yukarıdaki analiz ,3
+T4-02,4,creative,majority_voting,True,1.0,6.7,92,0.2654,Önceki yanıt eksik çünkü karşı örnekler göz ardı edilmiş. Daha iyi yaklaşım: Görevin kısıtlamalarına uygun özgün içerik ,5
+T4-03,4,creative,solo,True,1.0,6.65,11,0.0503,"Adım adım düşünüldüğünde, Değerlendirme yapılarak tutarlılık ve bütünlük sağlandı. sonucuna ulaşıyoruz.",1
+T4-03,4,creative,solo_refinement,True,1.0,6.65,88,0.1651,[Bağlam: [Bağlam: Daha net ve kapsamlı versiyon: Değerlendirme yapılarak tutarlılık ve bütünlük sağlandı. (İterasyon 1):,1
+T4-03,4,creative,sequential_chain,True,1.0,6.65,73,0.1653,[Bağlam: [Bağlam: Sistematik yaklaşımla ele alındığında: Görev incelenerek uygun yanıt oluşturuldu....] Eleştirel değerl,3
+T4-03,4,creative,hierarchical,True,1.0,6.62,153,0.2671,"[Bağlam: Alt-Ajan 1: [Bağlam: Alt-takım sonuçlarını birleştirerek: Hesaplama adımları: Verilen değerleri belirle, ilgili",5
+T4-03,4,creative,debate,True,1.0,6.5,136,0.2725,Hakem kararı: Aritmetik çözüm: Problemi parçalara ayırarak hesapladım. Final karar: Yukarıdaki analiz tatmin edicidir.. ,3
+T4-03,4,creative,majority_voting,True,1.0,6.81,106,0.2688,Eleştirel değerlendirme: Önerilen çözümde tek bir perspektif sunulmuş zayıflığı görülmektedir. Alternatif: Değerlendirme,5

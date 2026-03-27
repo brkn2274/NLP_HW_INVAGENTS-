@@ -1,0 +1,131 @@
+[
+  {
+    "task_id": "T1-01",
+    "tier": 1,
+    "prompt": "12 × 15 işleminin sonucunu hesapla.",
+    "expected_answer": "180",
+    "rubric": null,
+    "domain": "reasoning"
+  },
+  {
+    "task_id": "T1-02",
+    "tier": 1,
+    "prompt": "'Artificial Intelligence' ifadesini Türkçeye çevir.",
+    "expected_answer": "Yapay Zeka",
+    "rubric": null,
+    "domain": "analysis"
+  },
+  {
+    "task_id": "T1-03",
+    "tier": 1,
+    "prompt": "Dünyanın en büyük okyanusu hangisidir?",
+    "expected_answer": "Pasifik Okyanusu",
+    "rubric": null,
+    "domain": "reasoning"
+  },
+  {
+    "task_id": "T2-01",
+    "tier": 2,
+    "prompt": "Aşağıdaki metni özetle ve ardından duygusal tonunu analiz et: 'Bugün işte çok zorlandım, ancak akşam ailemle güzel bir akşam yemeği yedik. Hayat iniş çıkışlarla dolu ama en önemli şey sevdiklerimizle vakit geçirmek.'",
+    "expected_answer": "Özet: Zor bir iş günü geçirildi, akşam ise ailece güzel zaman geçirildi. Ton: İyimser/pozitif",
+    "rubric": null,
+    "domain": "analysis"
+  },
+  {
+    "task_id": "T2-02",
+    "tier": 2,
+    "prompt": "Python'da bir liste içindeki tekrar eden elemanları bulan ve bunları sayan bir fonksiyon yaz, ardından [1, 2, 2, 3, 3, 3, 4] listesi ile test et.",
+    "expected_answer": "{2: 2, 3: 3}",
+    "rubric": null,
+    "domain": "coding"
+  },
+  {
+    "task_id": "T2-03",
+    "tier": 2,
+    "prompt": "Küresel ısınmanın 3 önemli nedenini listele ve her biri için 1-2 cümleyle açıklama yap. Ardından bu nedenlerin birbirleriyle nasıl ilişkili olduğunu özetle.",
+    "expected_answer": "1) Fosil yakıtlar: CO2 salınımı artar 2) Ormansızlaşma: CO2 emilimi azalır 3) Hayvancılık: Metan üretimi. İlişki: Birbirleri ile sera gazı etkisiyle kümülatif ısınmaya yol açar.",
+    "rubric": null,
+    "domain": "analysis"
+  },
+  {
+    "task_id": "T3-01",
+    "tier": 3,
+    "prompt": "Aşağıdaki ifadeyi değerlendir: 'Bir çalışma, her gün kahve içen insanların daha uzun yaşadığını gösterdi. Bu nedenle kahve içmek ömrü uzatır.' Bu argümanda mantıksal hata var mı? Varsa ne tür bir hata?",
+    "expected_answer": null,
+    "rubric": {
+      "mantıksal_hata_tespiti": 3,
+      "hata_türü_açıklaması": 3,
+      "alternatif_açıklama": 2,
+      "bütünlük": 2
+    },
+    "domain": "reasoning"
+  },
+  {
+    "task_id": "T3-02",
+    "tier": 3,
+    "prompt": "Şu iki kaynaktan sentez yapın — Kaynak A: 'Yapay zeka insanların yerini alacak ve büyük işsizliğe yol açacak.' Kaynak B: 'Yapay zeka tarihte her yeni teknoloji gibi yeni iş alanları yaratacak ve insanlar uyum sağlayacak.' Bu çelişkili görüşleri eleştirel olarak değerlendirin ve dengeli bir sonuç çıkarın.",
+    "expected_answer": null,
+    "rubric": {
+      "her_iki_görüş_sunumu": 2,
+      "eleştirel_değerlendirme": 3,
+      "dengeli_sonuç": 3,
+      "kanıt_kullanımı": 2
+    },
+    "domain": "analysis"
+  },
+  {
+    "task_id": "T3-03",
+    "tier": 3,
+    "prompt": "Bir ülke hem 'vergi artışı olmayacak' hem de 'kamu hizmetleri genişletilecek' vaadini yerine getirebilir mi? Bu önermedeki çelişkiyi analiz edin, gerçek dünya örnekleriyle destekleyin.",
+    "expected_answer": null,
+    "rubric": {
+      "çelişki_tespiti": 3,
+      "ekonomik_analiz": 3,
+      "gerçek_dünya_örneği": 2,
+      "bütünlük": 2
+    },
+    "domain": "reasoning"
+  },
+  {
+    "task_id": "T4-01",
+    "tier": 4,
+    "prompt": "2150 yılında Mars kolonisinde geçen, yapay zeka bir karakterin kimlik arayışını konu alan 200 kelimelik kısa bir hikaye yaz. Hikayenin son cümlesi 'Ama ben her zaman burada olacaktım.' ile bitmeli.",
+    "expected_answer": null,
+    "rubric": {
+      "yaratıcılık": 2,
+      "anlatı_tutarlılığı": 2,
+      "kısıt_uyumu": 2,
+      "dil_kalitesi": 2,
+      "karakter_derinliği": 2
+    },
+    "domain": "creative"
+  },
+  {
+    "task_id": "T4-02",
+    "tier": 4,
+    "prompt": "Uzaktan çalışmanın ofis çalışmasına göre üstün olduğunu savunan güçlü bir argüman oluşturun. Karşı argümanları öngörüp çürütün. Yapısal bir deneme formatı kullanın.",
+    "expected_answer": null,
+    "rubric": {
+      "argüman_gücü": 2,
+      "karşı_argüman_çürütme": 2,
+      "yapısal_düzen": 2,
+      "ikna_edicilik": 2,
+      "dil_zenginliği": 2
+    },
+    "domain": "creative"
+  },
+  {
+    "task_id": "T4-03",
+    "tier": 4,
+    "prompt": "Bir ürün yöneticisi olarak, bir yapay zeka destekli kişiselleştirilmiş eğitim platformu için 6 ayda teslim edilebilecek bir ürün yol haritası hazırlayın. Yol haritası sprint bazlı olmalı ve her sprintin hedeflerini içermeli.",
+    "expected_answer": null,
+    "rubric": {
+      "gerçekçilik": 2,
+      "kapsam_genişliği": 2,
+      "sprint_yapısı": 2,
+      "teknik_derinlik": 2,
+      "önceliklendirme_mantığı": 2
+    },
+    "domain": "creative"
+  }
+]
